@@ -4,10 +4,10 @@ def run_guessing_game
   number = rand(1..6)
   case input
   when number
-      puts "You guessed the correct number!"
+      puts 'You guessed the correct number!'
   when input != number
-      puts "The computer guessed #{number}"
+      puts 'The computer guessed #{number}'
   when 'exit'
-        puts "Goodbye!"
+        puts 'Goodbye!'
     end
   end

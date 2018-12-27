@@ -3,8 +3,6 @@ def run_guessing_game
   input = gets.chomp
   number = rand(1..6)
   case input
-  when " "
-
   when number
       puts "You guessed the correct number!"
   when input != number
